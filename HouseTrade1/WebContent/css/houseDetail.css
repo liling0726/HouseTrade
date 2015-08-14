@@ -1,0 +1,258 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+ul {
+	list-style: none;
+}
+
+.panel-info {
+	border: #e1e1e1 solid 1px;
+	border-top-color: #00ff00;
+}
+
+#houseTitle {
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	margin: 15px auto;
+}
+
+#houseImage {
+	float: left;
+	height: auto;
+	/* 	width:450px; */
+	border: #eee solid 1px;
+	background: #fff;
+	margin: 10px;
+	margin-bottom: 10px;
+}
+/* #houseImage img{
+	
+	height:auto;
+	margin:10px 20px;
+	text-align:center;
+} */
+#houseInfo {
+	float: left;
+	margin-left: 50px;
+	margin-top: 130px;
+	list-style: none;
+}
+
+#houseInfo li {
+	line-height: 30px;
+}
+
+#houseInfo li label {
+	color: gray;
+	font-weight: normal;
+	font-size: 16px;
+}
+
+#houseInfo li span {
+	font-size: 16px;
+}
+
+#houseInfo li span i {
+	font-weight: bold;
+	color: orange;
+}
+
+#houseLabel {
+	margin: 10px 40px;
+	margin-right: 0px;
+	font-size: 24px;
+}
+
+img {
+	border: 0;
+}
+
+.ban {
+	width: 600;
+	height: auto;
+	position: relative;
+	overflow: hidden;
+	margin: auto 20px;
+	margin-bottom: 30px;
+}
+
+.ban2 {
+	width: 600px;
+	height: 500px;
+	position: relative;
+	overflow: hidden;
+	margin: 10px 20px;
+}
+
+.ban2 ul {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.ban2 ul li {
+	width: 600px;
+	height: auto;
+}
+
+.prev {
+	float: left;
+	cursor: pointer;
+}
+
+.num {
+	height: 102px;
+	overflow: hidden;
+	width: 500px;
+	position: relative;
+	float: left;
+	margin-left: 30px;
+}
+
+.min_pic {
+	padding-top: 20px;;
+	width: 600px;
+}
+
+.num ul {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.num ul li {
+	width: 100px;
+	height: 100px;
+	margin-right: 30px;
+	padding: 1px;
+}
+
+.num ul li.on {
+	border: 3px solid gray;
+	padding: 0;
+}
+
+.prev_btn1 {
+	width: 16px;
+	text-align: center;
+	height: 18px;
+	margin-top: 30px;
+	cursor: pointer;
+	float: left;
+}
+
+.next_btn1 {
+	width: 16px;
+	text-align: center;
+	height: 18px;
+	margin-top: 30px;
+	cursor: pointer;
+	float: right;
+}
+/* .prev1{ position:absolute; top:220px; left:20px; width:28px; height:51px;z-index:9;cursor:pointer;}
+.next1{ position:absolute; top:220px; right:20px; width:28px; height:51px;z-index:9;cursor:pointer;} */
+.mhc {
+	background: #000;
+	width: 100%;
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	filter: alpha(Opacity = 50);
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+}
+
+.pop_up {
+	width: 600px;
+	height: 500px;
+	padding: 10px;
+	background: #fff;
+	position: fixed;
+	-position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -255px;
+	margin-top: -255px;
+	display: none;
+	z-index: 99;
+}
+
+.pop_up_xx {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: -40px;
+	right: 0;
+	cursor: pointer;
+}
+
+.pop_up2 {
+	width: 600px;
+	height: 500px;
+	position: relative;
+	overflow: hidden;
+}
+
+.pop_up2 {
+	width: 600px;
+	height: 500px;
+	position: relative;
+	overflow: hidden;
+	float: left;
+}
+
+.pop_up2 ul {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.pop_up2 ul li {
+	width: 600px;
+	height: 500px;
+	float: left;
+}
+
+#housePhotos {
+	margin: auto;
+}
+
+#housePhotos img {
+	margin: 10px 150px;
+	height: 600px;
+	width: 800px;
+	text-align: center;
+}
+
+#houseDetailDescript div {
+	text-indent: 2em;
+	margin: auto 150px 30px 20px;;
+	color: gray;
+	font-size: 16px;
+	line-height: 50px;
+}
+
+#houseDetailDescript {
+	background: #f3f3f3;
+}
+
+#houseDetailDescript ul {
+	padding: 10px 20px;
+	font-size: 16px;
+	margin-bottom: 20px
+}
+
+#houseDetailDescript ul li {
+	display: inline-block;
+	margin-right: 50px;
+	line-height: 50px;
+	font-size: 16px;
+}
+
+#houseDetailDescript ul li span {
+	font-size: 16px;
+}

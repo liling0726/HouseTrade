@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 980px;
+	margin: 0 auto;
+}
+
+
+.list{
+	padding-top: 5px;
+	list-style-type: none;
+}
+
+.nav-bar-inner {
+	padding-left: 170px;;
+}
+
+.listview {
+	margin-top:10px;
+	width: 100%:
+}
+
+.listview.image li {
+	width: 100%;
+	background-color: #F7F7F7;
+}
+
+.nav-bar {
+	height: 50px;
+	padding: 8px;
+}
+
+.nav-bar .nav-bar-inner .element {
+	font-size: 15pt;
+}
+
+.nav-bar .nav-bar-inner>ul.menu>li a {
+	font-size: 11pt;
+}
+
+
+.fix-div {
+	position: fixed;
+	top: 0px;
+}
+
+.panel-label{
+	top:2px;
+	margin-left:15px;
+	position: relative;
+	display: inline-block;
+	
+	background-color: rgb(255,255,255);
+}

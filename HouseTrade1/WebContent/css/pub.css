@@ -1,0 +1,143 @@
+*{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+
+a,img{
+	border:0;
+}
+
+body{
+	font:12px/180% Arial, Helvetica, sans-serif, "ÐÂËÎÌå";
+}
+
+.wrap{
+    padding-bottom:90px;
+}
+
+#process{
+	width:70%;
+	margin:20px auto;
+	background:#f0f0f0;
+	position:relative;
+}
+
+#process ul{
+	height:48px;
+	overflow:hidden;
+}
+
+#process li{
+	float:left;
+	width:33.3%;
+	text-align:center;
+	position:relative;
+	z-index:2;
+	font-weight:bold;
+	font-size:16px;
+	line-height:50px;
+}
+
+#process li em{
+	position:absolute;
+	right:-24px;
+	top:-8px;
+	width:0;
+	height:0;
+	line-height:0;
+	border-width:32px 0 32px 32px;
+	border-color:transparent transparent transparent #fff;
+	border-style:dashed dashed dashed solid;
+}
+
+#process li i{
+	position:absolute;
+	right:-16px;
+	top:0;
+	width:0;
+	height:0;
+	line-height:0;
+	border-width:24px 0 24px 24px;
+	border-color:transparent transparent transparent #f0f0f0;
+	border-style:dashed dashed dashed solid;
+}
+
+#process li.current{
+	background:#6B8E23;
+	color:#fff;
+	z-index:1;
+}
+
+#process li.current i{
+	border-color:transparent transparent transparent #6B8E23;
+}
+.title {
+	width:70%;
+	margin:0 auto;
+    background: #f5f6f4 none repeat scroll 0 0;
+    font-size: 16px;
+    font-weight: bold;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 15px;
+}
+#category {
+    overflow: hidden;
+    padding: 10px 0;
+    width:70%;
+    margin:0 auto;
+}
+#category li {
+    float: left;
+    line-height: 30px;
+    padding-left: 20px;
+    font-size:14px;
+    width: 150px;
+}
+#category li a{
+	color: #242424;
+}
+#category li a:hover{
+	color:#CD3700;
+}
+#footer {
+    clear: both;
+    margin: 0 auto;
+    padding: 15px 0 25px;
+    text-align: center;
+    width: 980px;
+}
+#footer li a{
+	color:#A1A1A1;
+}
+#housing_major{
+	margin:0 auto;
+	width:70%;
+}
+h2{
+	background: #f5f6f4 none repeat scroll 0 0;
+}
+h2 span{
+    font-size: 13px;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 15px;
+}
+.majorCategory {
+    font-size: 14px;
+}
+#housing_major ul li{
+	float: left;
+    line-height: 30px;
+    padding-left: 20px;
+    font-size:14px;
+    width: 150px;
+}
+#housing_major li a{
+	color: #242424;
+}
+#housing_major li a:hover{
+	color:#CD3700;
+}

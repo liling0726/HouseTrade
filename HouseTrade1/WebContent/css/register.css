@@ -1,0 +1,56 @@
+.main {
+	border: 1px solid #CDCDCD;
+	width: 100%;
+	height: 400px;
+	margin-top: 10%;
+	position: relative;
+	margin-top: 10%;
+}
+
+.login-box {
+	margin-top: 50px;
+	width: 70%;
+}
+
+td {
+	padding-bottom: 18px;
+}
+
+.form-group {
+	margin-left: 30px;
+}
+
+#register {
+	width: 341px;
+	height: 36px;
+	padding: 5px;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+	background-color: #60AF00;
+}
+
+.right {
+	border-left: 1px solid #CDCDCD;
+	position: relative;
+	width: 32%;
+	float: right;
+	top: -72%;
+	padding-left: 27px;
+}
+
+.state1 {
+	color: #aaa;
+}
+
+.state2 {
+	color: #1188D3;
+}
+
+.state3 {
+	color: red;
+}
+/* ³É¹¦ */
+.state4 {
+	color: green;
+}

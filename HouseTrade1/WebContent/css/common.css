@@ -1,0 +1,62 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	margin: 0 auto;
+	width: 980px;
+}
+/* logo标签部分 */
+.logo-wrap {
+	margin: 8px auto;
+	width: 980px;
+}
+
+.gj-logo {
+	float: left;
+	padding-right: 14px;
+}
+
+.logo-title {
+	border-left: 1px solid #CDCDCD;
+	color: #6BA001;
+	float: left;
+	font-size: 24px;
+	font-family: "Microsoft Yahei", "Simsun";
+	height: 40px;
+	line-height: 34px;
+	margin-top: 12px;
+	padding-left: 14px;
+}
+
+.user-login {
+	background-position: 0px 0px;
+}
+
+.logo-tit {
+	background-image: url("../images/logo_tit.png");
+	background-repeat: no-repeat;
+	float: left;
+	height: 23px;
+	line-height: 22px;
+	margin-top: 7px;
+	text-indent: -9999px;
+	width: 96px;
+}
+/* 幻灯片部分 */
+.carousel {
+	width: 560px;
+	height: 420px;
+	margin-top: 10%;
+}
+
+.item img {
+	width: 560px;
+	height: 420px;
+}
+
+
+.user-reg {
+    background-position: 0 -25px;
+}

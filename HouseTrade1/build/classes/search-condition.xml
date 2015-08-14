@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search-condition-groups>
+	<search-condition-group scgname="售价">
+		<search-condition>
+			<scname>30万以下</scname>
+			<scid>p1</scid>
+			<scsql><![CDATA[house.salePrice<30]]></scsql>
+		</search-condition>
+		<search-condition>
+			<scname>30万-60万</scname>
+			<scid>p2</scid>
+			<scsql><![CDATA[house.salePrice>=30 and house.salePrice<=60]]></scsql>
+		</search-condition>
+		<search-condition>
+			<scname>60万-100万</scname>
+			<scid>p3</scid>
+			<scsql><![CDATA[house.salePrice>=60 and house.salePrice<=100]]></scsql>
+		</search-condition>
+		<search-condition>
+			<scname>100万-150万</scname>
+			<scid>p4</scid>
+			<scsql><![CDATA[house.salePrice>=100 and house.salePrice<=150]]></scsql>
+		</search-condition>
+		<search-condition>
+			<scname>150万-200万</scname>
+			<scid>p5</scid>
+			<scsql><![CDATA[house.salePrice>=150 and house.salePrice<=200]]></scsql>
+		</search-condition>
+		<search-condition>
+			<scname>200万以上</scname>
+			<scid>p6</scid>
+			<scsql><![CDATA[house.salePrice>200]]></scsql>
+		</search-condition>
+	</search-condition-group>
+	
+	<search-condition-group scgname="面积">
+		<search-condition>
+			<scname>50m²以下</scname>
+			<scid>m1</scid>
+			<scsql><![CDATA[house.houseArea<50]]></scsql>
+		</search-condition>
+		<search-condition>
+			<scname>50m²-70m²</scname>
+			<scid>m2</scid>
+			<scsql><![CDATA[house.houseArea>=50 and house.houseArea<=70]]></scsql>
+		</search-condition>
+		<search-condition>
+			<scname>70m²-90m²</scname>
+			<scid>m3</scid>
+			<scsql><![CDATA[house.houseArea>=70 and house.houseArea<=90]]></scsql>
+		</search-condition>
+		<search-condition>
+			<scname>90m²-110m²</scname>
+			<scid>m4</scid>
+			<scsql><![CDATA[house.houseArea>=90 and house.houseArea<=110]]></scsql>
+		</search-condition>
+		<search-condition>
+			<scname>110m²-130m²</scname>
+			<scid>m5</scid>
+			<scsql><![CDATA[house.houseArea>=110 and house.houseArea<=130]]></scsql>
+		</search-condition>
+		<search-condition>
+			<scname>130m²-150m²</scname>
+			<scid>m6</scid>
+			<scsql><![CDATA[house.houseArea>=130 and house.houseArea<= 150]]></scsql>
+		</search-condition>
+		<search-condition>
+			<scname>150m²以上</scname>
+			<scid>m7</scid>
+			<scsql><![CDATA[house.houseArea>=150]]></scsql>
+		</search-condition>
+	</search-condition-group>
+	
+	<search-condition-group scgname="房型">
+		<search-condition>
+			<scname>1室</scname>
+			<scid>h1</scid>
+			<scsql><![CDATA[house.room = 1]]></scsql>
+		</search-condition>
+		<search-condition>
+			<scname>2室</scname>
+			<scid>h2</scid>
+			<scsql><![CDATA[house.room = 2]]></scsql>
+		</search-condition>
+		<search-condition>
+			<scname>3室</scname>
+			<scid>h3</scid>
+			<scsql><![CDATA[house.room = 3]]></scsql>
+		</search-condition>
+		<search-condition>
+			<scname>4室</scname>
+			<scid>h4</scid>
+			<scsql><![CDATA[house.room = 4]]></scsql>
+		</search-condition>
+		<search-condition>
+			<scname>5室</scname>
+			<scid>h5</scid>
+			<scsql><![CDATA[house.room = 5]]></scsql>
+		</search-condition>
+		<search-condition>
+			<scname>5室以上</scname>
+			<scid>h6</scid>
+			<scsql><![CDATA[house.room > 5]]></scsql>
+		</search-condition>
+	</search-condition-group>
+	
+	<search-condition-group scgname="类型">
+		<search-condition>
+			<scname>普通住宅</scname>
+			<scid>a1</scid>
+			<scsql><![CDATA[house.housingType = '普通住宅']]></scsql>
+		</search-condition>
+		<search-condition>
+			<scname>公寓</scname>
+			<scid>a2</scid>
+			<scsql><![CDATA[house.housingType = '公寓']]></scsql>
+		</search-condition>
+		<search-condition>
+			<scname>别墅</scname>
+			<scid>a3</scid>
+			<scsql><![CDATA[house.housingType = '别墅']]></scsql>
+		</search-condition>
+		<search-condition>
+			<scname>平房/四合院</scname>
+			<scid>a4</scid>
+			<scsql><![CDATA[house.housingType = '平房/四合院']]></scsql>
+		</search-condition>
+	</search-condition-group>
+	
+	<search-condition-group scgname="产权">
+		<search-condition>
+			<scname>商品房</scname>
+			<scid>b1</scid>
+			<scsql><![CDATA[house.propertyRightType = '商品房']]></scsql>
+		</search-condition>
+		<search-condition>
+			<scname>经济适用房</scname>
+			<scid>b2</scid>
+			<scsql><![CDATA[house.propertyRightType = '经济适用房']]></scsql>
+		</search-condition>
+		<search-condition>
+			<scname>商住两用</scname>
+			<scid>b3</scid>
+			<scsql><![CDATA[house.propertyRightType = '商住两用']]></scsql>
+		</search-condition>
+	</search-condition-group>
+	
+	<search-condition-group scgname="装修">
+		<search-condition>
+			<scname>豪华装修</scname>
+			<scid>c1</scid>
+			<scsql><![CDATA[house.decoration = '豪华装修']]></scsql>
+		</search-condition>
+		<search-condition>
+			<scname>精装修</scname>
+			<scid>c2</scid>
+			<scsql><![CDATA[house.decoration = '精装修']]></scsql>
+		</search-condition>
+		<search-condition>
+			<scname>中等装修</scname>
+			<scid>c3</scid>
+			<scsql><![CDATA[house.decoration = '中等装修']]></scsql>
+		</search-condition>
+		<search-condition>
+			<scname>简单装修</scname>
+			<scid>c4</scid>
+			<scsql><![CDATA[house.decoration = '简单装修']]></scsql>
+		</search-condition>
+		<search-condition>
+			<scname>毛坯</scname>
+			<scid>c5</scid>
+			<scsql><![CDATA[house.decoration = '毛坯']]></scsql>
+		</search-condition>
+	</search-condition-group>
+	
+</search-condition-groups>

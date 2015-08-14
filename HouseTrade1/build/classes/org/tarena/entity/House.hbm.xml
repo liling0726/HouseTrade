@@ -1,0 +1,37 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+    <hibernate-mapping package="org.tarena.entity">
+    	<class name="House">
+    		<id name="id">
+    			<generator class="native"/>
+    		</id>
+    		<property name="smallArea"/>
+    		<property name="room"/>
+    		<property name="hall"/>
+    		<property name="bathroom"/>
+    		<property name="houseArea"/>
+    		<property name="totalFloor"/>
+    		<property name="floor"/>
+    		<property name="hasElevator"/>
+    		<property name="orientation"/>
+    		<property name="decoration"/>
+    		<property name="buildingStructure"/>
+    		<property name="housingType"/>
+    		<property name="propertyRightYear"/>
+    		<property name="propertyRightType"/>
+    		<property name="constructionYear"/>
+    		<property name="salePrice"/>
+    		<property name="title"/>
+    		<property name="detailDesc"/>
+    		<property name="publishTime"/>
+    		<property name="contactPerson"/>
+    		<property name="contactTel"/>
+    		<many-to-one name="user" column="userId" class="User" lazy="false">
+    		</many-to-one>
+    		<set name="houseImages" inverse="true" lazy="false">
+    			<key column="house_id"></key>
+    			<one-to-many class="HouseImage"/>
+    		</set>
+    	</class>
+    </hibernate-mapping>

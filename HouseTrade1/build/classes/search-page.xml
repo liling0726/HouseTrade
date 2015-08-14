@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search-condition-groups>
+	<search-condition-group scgname="分页">
+		<search-condition>
+			<scname>2</scname>
+			<scid>o2</scid>
+			<scsql><![CDATA[2]]></scsql>
+		</search-condition>
+		<search-condition>
+			<scname>3</scname>
+			<scid>o3</scid>
+			<scsql><![CDATA[3]]></scsql>
+		</search-condition>
+		<search-condition>
+			<scname>4</scname>
+			<scid>o4</scid>
+			<scsql><![CDATA[4]]></scsql>
+		</search-condition>
+		<search-condition>
+			<scname>5</scname>
+			<scid>o5</scid>
+			<scsql><![CDATA[5]]></scsql>
+		</search-condition>
+		<search-condition>
+			<scname>6</scname>
+			<scid>o6</scid>
+			<scsql><![CDATA[6]]></scsql>
+		</search-condition>
+		<search-condition>
+			<scname>7</scname>
+			<scid>o7</scid>
+			<scsql><![CDATA[7]]></scsql>
+		</search-condition>
+	</search-condition-group>
+	
+</search-condition-groups>
